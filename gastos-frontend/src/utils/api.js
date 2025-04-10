@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000"
+const API_URL = "https://gastos-t95b.onrender.com"
 
 export async function apiFetch(endpoint, method = "GET", body = null, token = null) {
     const headers = {"Content-Type": "application/json"};
